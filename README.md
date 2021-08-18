@@ -14,3 +14,12 @@ filename = initiate.py
 filename = test.py
 ```
 - submit batch with boto3
+
+
+### .env
+
+ACCESS_KEY=[YOUR KEY]
+SECRET_KEY=[YOUR KEY]
+REGION=ap-[YOUR REGION]
+
+USER_ID=[YOUR USER ID]
