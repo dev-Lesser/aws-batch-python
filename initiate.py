@@ -92,7 +92,7 @@ if __name__ == '__main__':
         }
     )
     r = batch.describe_compute_environments(computeEnvironments=[computeEnvironmentName])
-    assert len(r['computeEnvironments']) != 0, "there is no compute environment name : {}".format(computeEnvironments)
+    assert len(r['computeEnvironments']) != 0, "there is no compute environment name : {}".format(computeEnvironmentName)
 
     # create job queue
     batch.create_job_queue(
